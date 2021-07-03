@@ -9,5 +9,5 @@ import java.util.List;
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class ApiResponse {
-    List<Search>items = new ArrayList<>();
+    List<SearchResult>items = new ArrayList<>();
 }

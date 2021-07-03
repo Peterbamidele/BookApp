@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BookSearchLibrary-App</title>
+  <style>
+    body{
+      background-color: tan;
+    }
+    input{
+      width: 450px;
+      height: 120px;
+      color: darkorange;
+      background-color: azure;
+      border-radius: 10px;
+      padding: 3px;
+    }
+    button{
+      border-radius: 15px;
+      margin-top: 15px;
+      color: black;
+      background-color: wheat;
+    }
+  </style>
+</head>
+<body>
+  <form action="/book/all" method="get" >
+    <div>
+      <h2>Welcome To Peter Book Search Library</h2>
+      <h4>Search For Any Book of yours In The Search Section Below</h4>
+    </div>
+    <div>
+      <label>
+        <input type="search" placeholder="Search" name="bookName">
+      </label>
+    </div>
+    <div>
+      <button type="submit">
+        Submit
+      </button>
+    </div>
+  </form>
+</body>
+</html>

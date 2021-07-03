@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class ImgLinks {
+public class ImageLinks {
     private String smallThumbnail;
     private String thumbnail;
 }

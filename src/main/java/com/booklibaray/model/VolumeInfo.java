@@ -11,7 +11,7 @@ import java.util.List;
 public class VolumeInfo {
     private String title;
     private String description;
-    private String imgLinks;
+    private ImageLinks imageLinks;
     private  String previewsLink;
     private String publisher;
     private List<String> authors = new ArrayList<>();

@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Search {
+public class SearchResult {
     private String id;
     private VolumeInfo volumeInfo;
 
